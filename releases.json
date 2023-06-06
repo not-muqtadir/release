@@ -1,0 +1,12 @@
+{
+    "LTS": {
+        "zarya_version": "42",
+        "ubuntu_codename": "jammy",
+        "ubuntu_release": "22.04"
+    },
+    "non-LTS": {
+        "zarya_version": "44",
+        "ubuntu_codename": "lunar",
+        "ubuntu_release": "23.04"
+    }
+}
