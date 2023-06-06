@@ -1,12 +1,43 @@
 {
-    "LTS": {
-        "zarya_version": "42",
-        "ubuntu_codename": "jammy",
-        "ubuntu_release": "22.04"
-    },
-    "non-LTS": {
-        "zarya_version": "44",
+    "latest_release": {
+        "zarya_version": 44,
         "ubuntu_codename": "lunar",
-        "ubuntu_release": "23.04"
+        "ubuntu_release": "23.04",
+        "LTS": false,
+        "end-of-life": "January 2024"
+    },
+    "previous_releases": {
+        "supported": [
+            {
+                "zarya_version": 43,
+                "ubuntu_codename": "kinetic",
+                "ubuntu_release": "22.10",
+                "LTS": false,
+                "end-of-life": "July 2023"
+            },
+            {
+                "zarya_version": 42,
+                "ubuntu_codename": "jammy",
+                "ubuntu_release": "22.04",
+                "LTS": true,
+                "end-of-life": "May 2027"
+            }
+        ],
+        "not-supported": [
+            {
+                "zarya_version": 41,
+                "ubuntu_codename": "impish",
+                "ubuntu_release": "21.10",
+                "LTS": true,
+                "end-of-life": "Jul 2022"
+            },
+            {
+                "zarya_version": 40,
+                "ubuntu_codename": "hirsute",
+                "ubuntu_release": "21.04",
+                "LTS": true,
+                "end-of-life": "Jan 2022"
+            }
+        ]
     }
 }
